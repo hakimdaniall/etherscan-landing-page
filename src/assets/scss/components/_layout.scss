@@ -1,0 +1,16 @@
+.content__layouts {
+    display: flex;
+    justify-content: space-evenly;
+    // padding-top: 92px;
+    position: relative;
+}
+
+.content__layout {
+        max-width: 540px;
+}
+
+@media (max-width: 860px) {
+    .content__layouts {
+        column-gap: 30px;
+    }
+}

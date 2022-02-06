@@ -1,0 +1,73 @@
+.about__item {
+    max-width: 380px;
+    text-align: center;
+}
+
+.about__item-icon {
+    width: 65px;
+    height: 65px;
+    border-radius: 22px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 22px;
+    }
+
+    &.shopping-- {
+        background-color: #EDE6FE;
+        
+        img {
+            filter: invert(24%) sepia(75%) saturate(2342%) hue-rotate(246deg) brightness(105%) contrast(112%);
+        }
+    }
+
+    &.mail-- {
+        background-color: #FFE6DF;
+
+        img {
+            filter: invert(49%) sepia(91%) saturate(1213%) hue-rotate(331deg) brightness(100%) contrast(103%);
+        }
+    }
+
+    &.team-- {
+        background-color: #EFF2FF;
+
+        img {
+            filter: invert(32%) sepia(20%) saturate(6179%) hue-rotate(221deg) brightness(104%) contrast(105%);
+        }
+    }
+
+    &.security-- {
+        background-color: #DDFBEE;
+        
+        img {
+            filter: invert(60%) sepia(70%) saturate(347%) hue-rotate(65deg) brightness(100%) contrast(91%);
+        }
+    }
+
+    &.admin-- {
+        background-color: #FFEAF1;
+
+        img {
+            filter: invert(0%) sepia(12%) saturate(228%) hue-rotate(99deg) brightness(87%) contrast(87%);
+        }
+    }
+
+    &.digital-- {
+        background-color: #FCF3DF;
+
+        img {
+            filter: invert(99%) sepia(25%) saturate(7495%) hue-rotate(313deg) brightness(102%) contrast(95%);
+        }
+    }
+
+}
+
+.about__button {
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+}

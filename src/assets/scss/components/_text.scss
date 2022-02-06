@@ -1,0 +1,42 @@
+.main-text {
+    font-size: clamp(36px, 5.625vw, 72px);
+    letter-spacing: -3.6px;
+    line-height: clamp(39px, 6.094vw, 78px);
+
+    &.align-center-- {
+        text-align: center;
+        max-width: 920px;
+        margin-inline: auto;
+    }
+
+    &.smaller-- {
+        font-size: clamp(2rem, 4.37vw, 4rem);
+    }
+}
+
+.content-text {
+    font-size: clamp(11px, 1.719vw, 22px);
+    letter-spacing: -0.4px;
+    line-height: clamp(16px, 2.500vw, 32px);
+    max-width: 466px;
+    opacity: 0.5;
+
+    &.small-- {
+        position: absolute;
+        bottom: 51px;
+        font-size: 14px;
+    }
+
+    &.about-- {
+        max-width: 790px;
+        text-align: center;
+        margin-inline: auto;
+        padding-top: 6px;
+    }
+}
+
+@media (max-width: 860px) {
+    .main-text {
+     letter-spacing: -1.8px;
+    }
+}

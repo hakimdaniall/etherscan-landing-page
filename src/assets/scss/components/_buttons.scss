@@ -1,0 +1,43 @@
+/*-----------------------------------------------------------------------------
+  $ Buttons
+-----------------------------------------------------------------------------*/
+
+.button {
+  padding: 0.25em 0.5em;
+  display: inline-block;
+  background-color: #eee;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f0f0f0;
+  }
+
+  &[disabled],
+  &.disabled-- {
+    cursor: default;
+  }
+}
+
+.primary-button {
+  padding-inline: 37px;
+  padding-top: 13px;
+  padding-bottom: 12px;
+  background: #6AC75A;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 15px;
+  letter-spacing: -0.36px;
+  line-height: 25px;
+  transition: all 0.35s $ease-out-power4;
+
+  &:hover {
+    background: #96db8b;
+  }
+
+  &.about-- {
+    margin-left: 0;
+  }
+}

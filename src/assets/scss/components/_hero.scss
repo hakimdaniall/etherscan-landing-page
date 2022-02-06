@@ -1,0 +1,29 @@
+.hero-image {
+    margin-top: -74px;
+    max-width: 350px;
+    width: 21vw;
+}
+
+.hero__content-text-meta {
+    font-size: clamp(11px, 1.719vw, 22px);
+    letter-spacing: -0.4px;
+    line-height: clamp(16px, 2.500vw, 32px);
+    max-width: 466px;
+    opacity: 0.5;
+
+    &.small-- {
+        position: absolute;
+        bottom: 51px;
+        font-size: 14px;
+    }
+}
+
+.hero__content-item-count {
+    padding-top: clamp(23px, 3.594vw, 47px);
+}
+
+@media (max-width: 735px) {
+    .content-text.small-- {
+        display: none;
+    }
+}
